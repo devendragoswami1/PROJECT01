@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    color: white;
+}
+.head p{
+    display: inline-block;
+    margin: 0;
+}
+.head h1{
+    margin: 0;
+}
+.head{
+    padding: 40px;
+    background-color: rgb(110, 221, 127);
+}
+.container{
+    background-color: rgb(172, 184, 184);
+    /* padding: 30px; */
+    margin: 10px;
+}
+
+input[type=text],
+input[type=email],
+textarea,
+select{
+    border: 2px solid gray;
+    border-radius: 13px;
+    width: 100%;
+    padding: 20px;
+    color: black;
+}
+.main{
+    padding: 20px;
+}
+footer{
+    margin: 0 20px;
+}
+footer button{
+    background-color: rgb(103, 203, 103);
+    padding: 10px;
+    width: 10%;
+    border-radius: 11px;
+}
+select option{
+    color: black;
+}
+
+button:hover{
+    background-color: rgb(12, 206, 9);
+}
